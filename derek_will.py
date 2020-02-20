@@ -25,7 +25,8 @@ how = ['in Utrecht',
         'across the ocean',
         'with his family',
         'with his girlfriend',
-        'from his bedroom']
+        'from his bedroom',
+        'whie pondering the meaning of life']
 
 why = ['simply because he can',
       'to be the best',
