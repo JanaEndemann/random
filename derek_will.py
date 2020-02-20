@@ -11,7 +11,10 @@ what = ['play basketball',
         'win twitter',
         'sail a ship',
         'ride his bycicle',
-        'write code']
+        'write code',
+        'snowboard down the highest mountain',
+        'make an algorithm make him rich',
+        'make a game']
 
 how = ['in Utrecht',
         'in Japan',
@@ -21,7 +24,8 @@ how = ['in Utrecht',
         'all alone',
         'across the ocean',
         'with his family',
-        'with his girlfriend']
+        'with his girlfriend',
+        'from his bedroom']
 
 why = ['simply because he can',
       'to be the best',
@@ -30,7 +34,14 @@ why = ['simply because he can',
       'for no reason at all',
       "because he's bored",
       "because he hasn't tried it yet",
-      ', but not be an ass about it']
+      ', but not be an ass about it',
+      'to win a bet',
+      'to make his friends jealous',
+      "because it's a Monday",
+      "because no one else is doing it",
+      "because it's fun",
+      "to learn from it",
+      "because his 5th grade teacher told him to"]
 
 def make_sentence():
     sentence = 'Derek will '
