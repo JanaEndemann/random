@@ -26,7 +26,7 @@ how = ['in Utrecht',
         'with his family',
         'with his girlfriend',
         'from his bedroom',
-        'whie pondering the meaning of life']
+        'while pondering the meaning of life']
 
 why = ['simply because he can',
       'to be the best',
@@ -50,6 +50,7 @@ def make_sentence():
         sentence += l[randint(0, len(l))]
         sentence +=' '
     sentence = sentence[:-1]
+    sentence = sentence.replace(' ,', ',')
     return sentence + '.'
 
 if __name__ == '__main__':
