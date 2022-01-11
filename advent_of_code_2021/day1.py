@@ -1,6 +1,3 @@
-
-
-
 def part1(lines) -> int:
     last = None
     total_deeper = 0
@@ -9,4 +6,3 @@ def part1(lines) -> int:
             total_deeper += 1
         last = line
     return total_deeper
-

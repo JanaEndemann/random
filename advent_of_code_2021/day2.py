@@ -1,8 +1,8 @@
 from typing import List
 
 
-def part1(lines : List[str]) -> int:
-    hor  =0
+def part1(lines: List[str]) -> int:
+    hor = 0
     depth = 0
     for line in lines:
         if len(line) == 0:
@@ -16,6 +16,7 @@ def part1(lines : List[str]) -> int:
             depth += int(amount)
     print(hor, depth)
     return hor * depth
+
 
 def part2(lines: List[str]) -> int:
     hor = 0
